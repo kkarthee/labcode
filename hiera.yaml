@@ -1,0 +1,10 @@
+version: 5
+defaults:
+  datadir: /etc/puppetlabs/code/environments/production/prod_yaml
+  data_hash: yaml_data
+hierarchy:
+
+ - name: "Nodes yaml"
+   path: "nodes/%{::trusted.certname}.yaml"
+ - name: "Default yaml file"
+   path: "common.yaml"

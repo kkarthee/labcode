@@ -1,0 +1,7 @@
+--- 
+global::profile::windows::apps_vers: 
+ git: 2.8.1 
+ curl: 7.28.1 
+ 7zip: 15.14 
+ nssm: 2.24.0 
+ powershell: 5.1.14409.1005

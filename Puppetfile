@@ -8,6 +8,7 @@ forge "http://forge.puppetlabs.com"
 mod "puppetlabs-puppetserver_gem", :latest
 mod 'puppet-hiera', '3.3.1'
 mod 'chocolatey-chocolatey', '1.2.6'
+mod 'npwalker-pe_metric_curl_cron_jobs', '4.6.0'
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',

@@ -30,8 +30,8 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
-#include custom::infra
-node  pe-master-testlab {
+include custom::infra
+node  'pe-master-testlab' {
 include role::hiera
 }
 case $::kernel

@@ -31,7 +31,7 @@ node default {
   #   class { 'my_class': }
 }
 #include custom::infra
-node  $::puppet_server {
+node  pe-master-testlab {
 include role::hiera
 }
 case $::kernel

@@ -34,10 +34,10 @@ node default {
 node 'pe-201732-agent-ha' {
 include role::hiera
 }
-case $::kernel  
+case $::kernel
 {
 'windows': {
-#include role::windows 
+include role::windows
 }
 'Linux': {
 include role::linux

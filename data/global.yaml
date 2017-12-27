@@ -1,3 +1,3 @@
 pe_metric_curl_cron_jobs::puppetserver_hosts:
-  - 'pe-201732-agent-ha.puppetdebug.vlan'
-  - 'pe-201732-agent.puppetdebug.vlan'
+        - 'pe-master-testlab.support.puppetlabs.net'
+        - 'pe-cm-testlab.support.puppetlabs.net'

@@ -1,3 +1,6 @@
 ---
 message: "This node is using common data"
 puppet_enterprise::master::code_manager::timeouts_sync: 600
+ipe_metric_curl_cron_jobs::puppetserver_hosts:
+        - 'pe-master-testlab.support.puppetlabs.net'
+        - 'pe-cm-testlab.support.puppetlabs.net'

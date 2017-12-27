@@ -31,7 +31,7 @@ node default {
   #   class { 'my_class': }
 }
 #include custom::infra
-node 'pe-201732-agent-ha' {
+node  $::puppet_server {
 include role::hiera
 }
 case $::kernel

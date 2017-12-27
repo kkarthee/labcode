@@ -37,7 +37,7 @@ include role::hiera
 case $::kernel  
 {
 'windows': {
-#include role::windows 
+include role::windows 
 }
 'Linux': {
 include role::linux

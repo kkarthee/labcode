@@ -1,6 +1,6 @@
 class profile::windows::param
 {
-  Package { source   => 'c:\\temp\\packge',
+  Package { source   => 'c:\\temp\\package',
             provider => chocolatey
   }
 }

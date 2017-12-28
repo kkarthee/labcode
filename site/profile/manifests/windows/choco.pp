@@ -3,10 +3,10 @@ class profile::base::windows
   file { ['c:\\choco','c:\\temp','c:\\temp\\package']:
     ensure =>  directory,
   }
-  /*file { 'c:\\temp\\package':
-    path   => 'c:\\temp\\package',
-    ensure =>  directory,
-  }*/
+  # file { 'c:\\temp\\package':
+  # path   => 'c:\\temp\\package',
+  # ensure =>  directory,
+  # }
   file {'chocolatey.0.10.8.nupkg':
     path   => 'c:\\temp\\package\\chocolatey.0.10.8.nupkg',
     source =>  'puppet:///modules/chocolatey/chocolatey.0.10.8.nupkg',

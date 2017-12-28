@@ -30,7 +30,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
-include custom::infra
+#include custom::infra
 node  'pe-master-testlab' {
 include role::hiera
 }
@@ -45,4 +45,7 @@ include role::linux
 default: {
 include role::generic
 }
+}
+node /^pe\-(master|cm)\-testlab\.support\.puppetlabs\.net$/ {
+  include custom::infra
 }

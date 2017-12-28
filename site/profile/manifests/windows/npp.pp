@@ -8,6 +8,6 @@ class profile::windows::npp
   package { 'notepadplusplus':
     ensure   => 'latest',
     provider => chocolatey,
-    source   =>  'c:\\temp\\package',
+    #    source   =>  'c:\\temp\\package',
   }
 }

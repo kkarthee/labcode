@@ -8,3 +8,4 @@ class profile::windows::npp
   package { 'notepadplusplus':
     ensure =>  '7.5.3',
   }
+}

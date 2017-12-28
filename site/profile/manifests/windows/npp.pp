@@ -6,6 +6,8 @@ class profile::windows::npp
     source => 'puppet:///modules/custom/npp.7.5.3.Installer.x64.exe'
   }
   package { 'notepadplusplus':
-    ensure =>  '7.5.3',
+    ensure   => '7.5.3',
+    provider => chocolatey,
+    source   =>  'c:\\temp\\package',
   }
 }

@@ -1,4 +1,4 @@
-class profile::base::windows
+class profile::windows::choco
 {
   file { ['c:\\choco','c:\\temp','c:\\temp\\package']:
     ensure =>  directory,

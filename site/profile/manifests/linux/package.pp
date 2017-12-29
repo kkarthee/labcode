@@ -5,3 +5,4 @@ class profile::linux::package (
 package { "$pacakge_install":
   ensure =>  installed,
 }
+}

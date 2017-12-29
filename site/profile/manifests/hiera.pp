@@ -8,7 +8,7 @@ class { 'hiera':
     {'name' => 'Virtual yaml','path'  =>  'virtual/%{::virtual}.yaml'},
     {'name' => 'Nodes yaml', 'path' =>  'nodes/%{::trusted.certname}.yaml'},
     {'name' => 'OS yaml', 'path' =>  'os/%{::osfamily}.yaml'},
-    {'name' => 'kernel yaml', 'path' =>  'os/%{::kernel}.yaml'},
+    {'name' => 'kernel yaml', 'path' =>  'kernel/%{::kernel}.yaml'},
     {'name' => 'Default yaml file', 'path' =>  'global.yaml'},
     ],
     eyaml           => true,

@@ -1,3 +1,8 @@
 pe_metric_curl_cron_jobs::puppetserver_hosts:
         - 'pe-master-testlab.support.puppetlabs.net'
         - 'pe-cm-testlab.support.puppetlabs.net'
+ntp_server_list:
+        - 'opdx-net01-prod.ops.puppetlabs.net'
+        - 'opdx-net02.service.puppetlabs.net'
+        - 'pdx-net01-prod.ops.puppetlabs.net'
+        - 'pdx-net02-prod.ops.puppetlabs.net'

@@ -1,9 +1,8 @@
----
-  package:
-          - vim
-          - git
+package:
+  - vim
+  - git
 
-  ntpserver: 
-          - server1.ntp.com
-          - server2.ntp.com
+ntpserver:
+        - server1.ntp.com
+        - server2.ntp.com
 

@@ -1,3 +1,3 @@
 package:
         - unattended-upgrades
-
+ntp::service_name: ntp

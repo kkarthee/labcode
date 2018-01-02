@@ -1,17 +1,6 @@
 pe_metric_curl_cron_jobs::puppetserver_hosts:
         - 'pe-master-testlab.support.puppetlabs.net'
         - 'pe-cm-testlab.support.puppetlabs.net'
-ntp::servers:
-        - 'opdx-net01-prod.ops.puppetlabs.net'
-        - 'opdx-net02.service.puppetlabs.net'
-        - 'pdx-net01-prod.ops.puppetlabs.net'
-        - 'pdx-net02-prod.ops.puppetlabs.net'
-ntp::autoupdate:
-        - false
-ntp::enable:
-        - true
-ntp::service_name: 
-        - ntpd
 ssh::hiera_merge: true
 ssh::permit_root_login: false
 ssh::keys:

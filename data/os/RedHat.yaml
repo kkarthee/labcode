@@ -1,3 +1,4 @@
 package :
-        - yum-cron 
-
+  - yum-cron 
+profile::linux::user::users:
+  - 'myuser2'

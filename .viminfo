@@ -11,6 +11,7 @@
 ~MSle0~/Oscar
 
 # Command Line History (newest to oldest):
+:X
 :q!
 
 # Search String History (newest to oldest):
@@ -26,14 +27,25 @@
 # Registers:
 
 # File marks:
-'0  1  0  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
-'1  76  10  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
+'0  7  0  /Users/karthikeyan.kanagaraj/.bash_profie
+'1  1  0  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
+'2  76  10  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
 
 # Jumplist (newest first):
+-'  7  0  /Users/karthikeyan.kanagaraj/.bash_profie
+-'  1  0  /Users/karthikeyan.kanagaraj/.bash_profie
+-'  1  0  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
+-'  76  10  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
 -'  1  0  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
 -'  76  10  /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
 
 # History of marks within files (newest to oldest):
+
+> /Users/karthikeyan.kanagaraj/.bash_profie
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
 
 > /Users/karthikeyan.kanagaraj/Applications/pdb-vmsphere/puppet-debugging-kit/config/vms.yaml
 	"	1	0

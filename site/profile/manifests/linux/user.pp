@@ -11,7 +11,7 @@ class profile::linux::user (
   ssh_authorized_key { $rusers:
       user =>  $rusers,
       type =>  'rsa',
-      key  =>  $keyuser,
+      key  =>  $myuserkey,
   }
   include sudo
   include sudo::configs

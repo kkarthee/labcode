@@ -6,7 +6,7 @@ class profile::linux::user (
     ensure         => present,
     purge_ssh_keys => true,
     managehome     => true,
-    key            => $myserkey,
+    key            => "$myserkey",
   }
   include sudo
   include sudo::configs

@@ -1,0 +1,4 @@
+sudo::configs:
+        'myuser':
+                'content'  : "%myser ALL=(ALL) NOPASSWD: ALL"
+                'priority' : 10 

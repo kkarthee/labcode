@@ -31,9 +31,9 @@ node default {
   #   class { 'my_class': }
 }
 #include custom::infra
-/*node  'pe-master-testlab' {
+node  'pe-master-testlab' {
 include role::hiera
-}*/
+}
 case $::kernel
 {
 'windows': {

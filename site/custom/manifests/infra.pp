@@ -7,6 +7,6 @@ class { 'pe_metric_curl_cron_jobs':
   puppetserver_hosts => $pe_curl_metric_server,
 }
 }
-node $pe_curl_metric_server {
+node 'pe-master-testlab.support.puppetlabs.net','pe-cm1-testlab.support.puppetlabs.net' {
   include custom:infra
 }

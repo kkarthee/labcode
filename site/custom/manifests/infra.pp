@@ -8,5 +8,5 @@ class { 'pe_metric_curl_cron_jobs':
 }
 }
 node 'pe-master-testlab.support.puppetlabs.net','pe-cm1-testlab.support.puppetlabs.net' {
-  include custom:infra
+  include custom::infra
 }

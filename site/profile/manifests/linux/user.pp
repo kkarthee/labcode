@@ -1,6 +1,6 @@
 class profile::linux::user (
-  $myuserkey = lookup ( 'profile::linux::user::myuser', { merge => deep } ) ,
-  $rusers = lookup ( 'profile::linux::user::rootusers' , { merge     =>  deep } )
+  $myuserkey = lookup ( 'profile::linux::user::myuser', { merge      => unique } ) ,
+  $rusers = lookup ( 'profile::linux::user::rootusers' , { merge     => unique } )
 )
 {
   user { $rusers:

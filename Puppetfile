@@ -20,4 +20,3 @@ mod 'npwalker-pe_metric_curl_cron_jobs', '4.6.0'
 #  :branch => 'docs_experiment'
 mod 'codem-repo',
   :git    => "git@github.com:kkarthee/codem-repo.git",
-  :branch => "test_codem_repo"

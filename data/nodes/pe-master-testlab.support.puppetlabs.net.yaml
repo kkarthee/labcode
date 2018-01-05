@@ -1,7 +1,7 @@
 puppet_enterprise::profile::master::code_manager_auto_configure: true
 puppet_enterprise::master::code_manager::git_settings:
   private-key: "/etc/puppetlabs/puppetserver/ssh/id-control_repo.rsa"
-    - provider : rugged
+#    - provider : rugged
   repositories:
     - remote: "git@github.com:kkarthee/labcode.git"
 #      private-key: "/etc/puppetlabs/puppetserver/ssh/id-control_repo.rsa"

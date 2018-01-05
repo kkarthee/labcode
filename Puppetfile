@@ -19,4 +19,4 @@ mod 'npwalker-pe_metric_curl_cron_jobs', '4.6.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 mod 'codem-repo',
-  :git    => "git@github.com:kkarthee/codem-repo.git",
+  :git    => "git@github.com:kkarthee/codem-repo.git"

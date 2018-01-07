@@ -1,4 +1,4 @@
 package :
   - yum-cron 
-profile::linux::user::rusers:
+profile::linux::user::rootusers:
   - 'myuser'

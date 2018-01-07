@@ -1,0 +1,6 @@
+Facter.add(:role) do
+	confine :hostname do |value|
+		value == '/^www\d+$/'
+		setcode 'echo webrole' 
+	end
+end

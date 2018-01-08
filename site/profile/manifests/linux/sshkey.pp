@@ -6,7 +6,7 @@ class ssh {
   @@sshkey { '::hostname':
     type => dsa,
     key  => $::sshdsakey,
-    tag  =>  $sshrole
+    tag  =>  $sshrole,
   }
 }
   Sshkey <<| tag == 'adminserver' |>>

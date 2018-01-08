@@ -1,14 +1,13 @@
 class profile::linux::sshkey (
+  $sshrole = $::role
 )
 {
 class ssh {
   @@sshkey { '::hostname':
     type => dsa,
-    key  =>  $::sshdsakey,
+    key  => $::sshdsakey,
+    tag  =>  $sshrole
   }
 }
-  if $::role == adminserver
-  {
-  Sshkey <<| |>>
-}
+  Sshkey <<| tag == 'adminserver' |>>
 }

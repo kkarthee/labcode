@@ -9,7 +9,7 @@ mod "puppetlabs-puppetserver_gem", :latest
 mod 'puppet-hiera', '3.3.1'
 mod 'chocolatey-chocolatey', '1.2.6'
 mod 'npwalker-pe_metric_curl_cron_jobs', '4.6.0'
-mod 'ghoneycutt-common', '17.0'
+mod 'ghoneycutt-common', '1.7.0'
 mod 'ghoneycutt-ssh', '3.56.1'
 mod 'puppet-archive', '2.2.0'
 mod 'puppet-grafana', '44.0.3'

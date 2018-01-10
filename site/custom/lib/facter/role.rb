@@ -1,4 +1,4 @@
-Facter.add(:wrole) do
+Facter.add(:role) do
 		has_weight 100
 	    	setcode do
 		           trole = Facter.value(:hostname)
@@ -20,4 +20,3 @@ Facter.add(:role) do
 		'default'
 	end
 end
-

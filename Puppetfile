@@ -17,12 +17,12 @@ mod 'puppetlabs-concat', '4.1.1'
 mod 'puppetlabs-firewall', '1.11.0'
 mod 'puppetlabs-inifile', '1.6.0'
 mod 'puppetlabs-ntp', '7.0.0'
-mod 'puppetlabs-pe_metrics_dashboard', '0.1.0'
+#mod 'puppetlabs-pe_metrics_dashboard', '0.1.0'
 mod 'puppetlabs-powershell', '2.1.3'
 mod 'puppetlabs-registry', '1.1.4'
 mod 'puppetlabs-stdlib', '4.24.0'
 mod 'saz-sudo', '4.2.0'
- # Modules from Git
+# Modules from Git
 # # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 # #mod 'apache',
 # #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',

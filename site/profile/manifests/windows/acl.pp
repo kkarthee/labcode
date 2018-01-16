@@ -5,6 +5,7 @@ acl { 'c:/temp/usertest':
     target                     =>  'c:/temp/usertest',
     purge                      =>  true,
     permissions                =>  [
+    { identity => 'Administrator', rights => ['full'], perm_type=> 'allow', child_types => 'all', affects => 'all' },
     { identity => 'winuser', rights => ['full'], perm_type=> 'allow', child_types => 'all', affects => 'all' },
     { identity => 'wingroup', rights => ['read'], perm_type=> 'allow', child_types => 'all', affects => 'all' }
     ],

@@ -12,7 +12,7 @@ class profile::windows::file (
     owner   =>  'testuser',
     group   =>  'testgroup',
     mode    =>  '0740',
-    source  =>  'C:\\temp\test',
+    #    source  =>  'C:\\temp\test',
     require =>   File['C:\\temp\\testuser']
 }
 }

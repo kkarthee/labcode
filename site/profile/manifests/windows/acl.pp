@@ -11,6 +11,6 @@ acl { 'c:/temp/usertest':
     ],
     owner                      =>  'winuser', #Creator_Owner specific, doesn't manage unless specified
     group                      =>  'wingroup', #Creator_Group specific, doesn't manage unless specified
-    inherit_parent_permissions =>  true,
+    inherit_parent_permissions =>  false,
 }
 }

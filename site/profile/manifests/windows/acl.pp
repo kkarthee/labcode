@@ -3,7 +3,7 @@ class profile::windows::acl(
 {
 acl { 'c:/temp/usertest':
     target                     =>  'c:/temp/usertest',
-    purge                      =>  false,
+    purge                      =>  true,
     permissions                =>  [
     { identity => 'winuser', rights => ['full'], perm_type=> 'allow', child_types => 'all', affects => 'all' },
     { identity => 'wingroup', rights => ['read'], perm_type=> 'allow', child_types => 'all', affects => 'all' }

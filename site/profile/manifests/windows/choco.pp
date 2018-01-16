@@ -9,7 +9,7 @@ class profile::windows::choco
   # }
   file {'chocolatey.0.10.8.nupkg':
     path   => 'c:\\temp\\package\\chocolatey.0.10.8.nupkg',
-    source =>  'puppet:///modules/chocolatey/chocolatey.0.10.8.nupkg',
+    source =>  'puppet:///modules/custom/chocolatey.0.10.8.nupkg',
   }
   class { 'chocolatey':
     chocolatey_download_url => 'file:///C:/temp/package/chocolatey.0.10.8.nupkg',

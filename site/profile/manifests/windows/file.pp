@@ -1,18 +1,18 @@
 class profile::windows::file (
 )
 {
-  file { 'C:\\temp\\testuser':
+  file { 'C:\\temp\\usertest':
     ensure =>  directory,
-    owner  =>  'testuser',
+    owner  =>  'usertest',
     group  =>  'testgroup',
     mode   =>   '0755',
 }
-  file {'C:\\temp\\testuser\\test.txt':
+  file {'C:\\temp\\usertest\\test.txt':
     ensure  =>  'file',
-    owner   =>  'testuser',
+    owner   =>  'usertest',
     group   =>  'testgroup',
     mode    =>  '0740',
-    source  =>  'C:\\temp\\test',
-    require =>   File['C:\\temp\\testuser']
+    #source  =>  'C:\\temp\\test',
+    require =>   File['C:\\temp\\usertest']
 }
 }

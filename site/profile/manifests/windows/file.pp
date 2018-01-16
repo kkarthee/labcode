@@ -5,7 +5,7 @@ class profile::windows::file (
     ensure =>  directory,
     owner  =>  'winuser',
     group  =>  'wingroup',
-    mode   =>   '0755',
+    mode   =>   '0777',
 }
   file {'C:\\temp\\usertest\\test.txt':
     ensure  =>  'file',

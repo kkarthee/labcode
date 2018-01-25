@@ -21,6 +21,6 @@ registry::value { 'Enable shutdown tracker':
     key   => "$key_loc_shut\\shutdown",
     value => 'ReasonCode',
     type  => dword,
-    date  =>  '1',
+    data  =>  '1',
 }
 }

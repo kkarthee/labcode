@@ -39,7 +39,7 @@ iis_feature { $iis_features:
 }
     -> iis_site { 'Test Webserver':
     ensure          =>  'started',
-    physicalpath    =>  'c:\\inetpub\\minimal',
+    physicalpath    =>  'c:\\temp\\wwwroot',
     applicationpool =>  'DefaultAppPool',
     require         =>  File['webdir'],
 }

@@ -1,7 +1,8 @@
 class profile::windows::security (
   # $adminkey = 'HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}',
   #$userkey = 'HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\\{A509B1A8-37EF-4b3f-8CFC-4F3A74704073}'
-  $key_loc = 'HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components'
+  $key_loc = 'HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components',
+  $key_loc_shut = 'HKLM\Software\Microsoft\Windows\CurrentVersion\Reliability'
 )
 {
   registry::value { 'IE Enhanced security user':
@@ -15,5 +16,11 @@ registry::value { 'IE Enhanced security Admin':
     value => 'IsInstalled',
     type  =>  dword,
     data  =>  '1',
+}
+registry::value { 'Enable shutdown tracker':
+    key   => "$key_loc_shut\\shutdown",
+    value => 'ReasonCode',
+    type  => dword,
+    date  =>  '1',
 }
 }

@@ -18,9 +18,10 @@ registry::value { 'IE Enhanced security Admin':
     data  =>  '1',
 }
 registry::value { 'Enable shutdown tracker':
-    key   => "$key_loc_shut\\shutdown",
-    value => 'ReasonCode',
-    type  => dword,
-    data  =>  '1',
+    key    => "$key_loc_shut\\shutdown",
+    #value => 'ReasonCode',
+    value  =>  'ShutdownReasonUI',
+    type   => dword,
+    data   => '1',
 }
 }

@@ -26,6 +26,7 @@ mod 'puppetlabs-acl', '2.0.1'
 mod 'puppetlabs-dism', '1.2.0'
 mod 'puppet-iis', '3.1.0'
 mod 'puppetlabs-dsc', '1.4.1'
+mod 'puppetlabs-reboot', '2.0.0'
 # Modules from Git
 # # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 # #mod 'apache',

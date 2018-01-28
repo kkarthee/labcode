@@ -14,7 +14,7 @@ iis_feature { $iis_features:
     physicalpath    => 'c:\\temp\\wwwroot',
     applicationpool => 'DefaultAppPool',
     require         => File['webdir'],
-    provider        => 'powershell',
+    #provider        => 'powershell',
     bindings        => [
           {
                   'bindinginformation' =>  '*:8080:',

@@ -1,6 +1,11 @@
-class profile::windows::website {
+class profile::windows::website (
 $iis_features = ['Web-WebServer','Web-Scripting-Tools']
-
+)
+{
+  file { 'webdir':
+          ensure =>   'directory',
+          path   =>   'c:\\temp\\wwwroot',
+                    }
 iis_feature { $iis_features:
     ensure =>  'present',
 }
@@ -9,7 +14,8 @@ iis_feature { $iis_features:
     physicalpath    => 'c:\\temp\\wwwroot',
     applicationpool => 'DefaultAppPool',
     require         => File['webdir'],
-    bindings        =>  [
+    provider        => 'powershell',
+    bindings        => [
           {
                   'bindinginformation' =>  '*:8080:',
                         'protocol'     =>  'http',
@@ -17,8 +23,4 @@ iis_feature { $iis_features:
     ],
 }
 
-file { 'webdir':
-    ensure =>  'directory',
-      path =>  'c:\\temp\\wwwroot',
-}
 }

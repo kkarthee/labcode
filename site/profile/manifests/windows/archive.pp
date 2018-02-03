@@ -10,4 +10,7 @@ class profile::windows::archive
     seven_zip_provider =>  'windows',
     require           => File[ '7z1801-x64.msi'],
   }
+  reboot { 'after':
+    subscribe =>  Class['archive'],
+}
 }

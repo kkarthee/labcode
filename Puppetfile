@@ -29,6 +29,8 @@ mod 'puppetlabs-dism', '1.2.0'
 mod 'puppetlabs-reboot', '2.0.0'
 mod 'puppetlabs-iis', '4.2.1'
 mod 'puppet-archive', '2.2.0'
+mod 'puppetlabs-kubernetes', '1.0.2'
+mod 'puppetlabs-docker', '1.0.5'
 # Modules from Git
 # # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 # #mod 'apache',

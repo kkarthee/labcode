@@ -1,6 +1,6 @@
 version: 5
 defaults:
-  datadir: /etc/puppetlabs/code/environments/production/prod_yaml
+  datadir: /etc/puppetlabs/code/environments/production/data
   data_hash: yaml_data
 hierarchy:
 

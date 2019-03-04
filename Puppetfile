@@ -32,6 +32,7 @@ mod 'puppet-archive', '2.2.0'
 mod 'puppetlabs-kubernetes', '1.0.2'
 mod 'puppetlabs-docker', '1.0.5'
 mod 'puppetlabs-cd4pe', '1.1.1'
+mod 'puppetlabs-puppet_authorization', '0.5.0'
 # Modules from Git
 # # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 # #mod 'apache',

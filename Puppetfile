@@ -35,6 +35,7 @@ mod 'puppetlabs-cd4pe', '1.1.1'
 mod 'puppetlabs-puppet_authorization', '0.5.0'
 mod 'puppetlabs-hocon', '1.0.1'
 mod 'puppetlabs-translate', '1.2.0'
+mod 'puppetlabs-apt', '6.3.0'
 # Modules from Git
 # # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 # #mod 'apache',
